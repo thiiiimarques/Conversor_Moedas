@@ -10,10 +10,10 @@ let currency = document.getElementById("currency");
 let form = document.querySelector("form");
 
 // Manipulando o input amount para receber somente numeros
-amount.addEventListener("input") , () => {
+amount.addEventListener("input", () => {
   let hasCharactersRegex = /\D+/g;
   amount.value = amount.value.replace(hasCharactersRegex, "");
-}
+})
 
 //captando o evento de submit no formulário
 form.onsubmit = (event) => {
