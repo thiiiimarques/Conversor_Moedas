@@ -1,7 +1,7 @@
-//criando os valores das moedas
-let USD = 4.87;
-let EUR = 5.32;
-let GBP = 6.08;
+//criando os valores das moeda. Valores referente a data 24/10/2024!
+let USD = 5.71;
+let EUR = 6.17;
+let GBP = 7.41;
 
 
 //Otendo os elementos do formulário
